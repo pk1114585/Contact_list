@@ -1,0 +1,25 @@
+/* Styling for the nav-bar */
+nav{
+    
+    /* margin-top: -3vh; */
+    height: 7vh;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    background: url("D:\Download\coding ninja backend test\Contact-List\public\cool-background2.png");
+  
+}
+/* Styling for the heading */
+h1{
+    color: rgb(15, 14, 14);
+    
+    
+    
+}
+/* few of the styling of the h2 only,  */
+.heading{
+    font-weight: 500;
+    text-decoration: rgb(19, 20, 20);
+}
+

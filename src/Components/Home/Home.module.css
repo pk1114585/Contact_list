@@ -1,0 +1,105 @@
+/* Styling for the contactTable */
+.contactTable {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 100%;    
+    
+    margin-bottom: 2vh;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 70%;
+    
+}
+
+.tableHead:hover{
+    background-color: #6ddff381;
+}
+
+th,
+td {
+    padding: 8px;
+    margin: 0;
+    
+}  
+
+thead {
+    
+    background: url("D:\Download\coding ninja backend test\Contact-List\public\cool-background2.png");
+    color: rgb(20, 20, 20);
+    height: 5vh;
+    text-align: center;
+    
+}
+
+.contactTable td {
+    border-bottom: 1px solid #2e2e2e9d; /* Dark line after headers */
+    padding: 10px;
+    text-align: left;
+    
+}
+
+tbody {
+    height: 4vh;
+    border-bottom: 1px solid #2e2e2e9d; /* Dark line after headers */
+    padding: 10px;
+    text-align: left;
+    
+}
+
+tr:hover{
+    background-color: #ebb7edb4;
+}
+
+.editButton {
+    background-color: #2ae918d3; /* Blue background color */
+    color: #fff; /* Text color */
+    padding: 8px 16px; /* Padding around the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-right: 10px;
+}
+
+.editButton:hover {
+    background-color: #a2dd439d; /* Darker blue background color on hover */
+}
+
+.deleteButton {
+    background-color: #d61b2ed7; /* Red background color */
+    color: #fff; /* Text color */
+    padding: 8px 16px; /* Padding around the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+  
+.deleteButton:hover {
+    background-color: #c82333; /* Darker red background color on hover */
+}
+  
+.addContact{
+    /* display: flex; */
+    margin-top: 3vh;
+    margin-bottom: -5vh;
+    margin-left: 63vw;
+    /* justify-content: space-evenly; */
+
+    /* align-content: center; */
+}
+
+.addContact button{
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    background: url("D:\Download\coding ninja backend test\Contact-List\public\cool-background.png");
+}
+
+.addContact button:hover{
+    background-color: #dbad2e79;
+    cursor: pointer;
+    color: rgb(226, 52, 52);
+}
