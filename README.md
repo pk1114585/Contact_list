@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Features
+
+![image](https://github.com/pk1114585/Contact_list/assets/45114125/e3c6cbf9-50eb-4aaa-95f2-1f00f96cb234)
+
+# Add to contact
+
+![image](https://github.com/pk1114585/Contact_list/assets/45114125/29d1f8ed-543f-4bca-a31d-e9e0a61119bd)
+
+# Edit
+
+![image](https://github.com/pk1114585/Contact_list/assets/45114125/bb8a4099-326a-4d52-af97-578af92ba5de)
+
+# Delete
+
+![image](https://github.com/pk1114585/Contact_list/assets/45114125/a5b7a78a-3dcf-40e7-afc8-4acfee4952e9)
+
+## API
+
+Fetched data of this API: [https://jsonplaceholder.typicode.com/users]
+
 ## Available Scripts
 
 In the project directory, you can run:
